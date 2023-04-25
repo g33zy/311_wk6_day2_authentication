@@ -150,6 +150,10 @@ If everything worked correctly you should have received an "access_token" in ret
 
 If you are having issues you may try going to Auth0 >> Settings/Dashboard >> Applications >> my-express-app >> Show Advanced Settings >> Grant Types >> And selecting "Password"
 
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Im1TZEdjaWhydE56RVpkMHZaRF9PbiJ9.eyJpc3MiOiJodHRwczovL2Rldi14eWs0aWV3M284Z3pub2lkLnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw2NDQwOWQxNzNjNDVjMjRjYjBiNWEzMTQiLCJhdWQiOiJteS1leHByZXNzLWFwcCIsImlhdCI6MTY4MjAwMDQ5MCwiZXhwIjoxNjgyMDg2ODkwLCJhenAiOiJpVGFsc2NwMW1Ib1JPUTd5bnJIdTlEVkdzY3pGZFBpTCIsImd0eSI6InBhc3N3b3JkIn0.s21V-c_osqoa7dZYgn-JEdj3Pzf_P17BEFcnSFIpZ8rXp_kEDSGwMzxwdBFsiwN-lMF6izJ4lpiNUNzMaRHBc1Q5vnQbUVavy3zK4E4Ep9K5Xf4bBqcoTXbon_Nyx-jakl_VpG9YB2Zg0IZWY21ikaPt3YJXKez5clNW8TrjWhhIAJTM1UZNbHE_70RDkhVmlbHnA4CAi1kHUQoeZ1fKigUzUZI1_ZqM0uEv5xJMo-rXq_1TSaspO0Q9bCJpdOWYzU4SsRfSidaPXsibzN2WxY8h-DNarXAj_fjUVSGPibJc8807ngNijUAv2FJ_YEpv-L1I42ziGY6KSHzGfh9Eew"
+}
+
 ## BONUS - logger
 
 Create a function called `logger` in the `middleware/index.js` file. Its purpose will be to log the route and date/time that each request happened. The outline of the function will look like this:
